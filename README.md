@@ -8,3 +8,9 @@
   2. Create Crypto Objects. Go to menu **"Crypto Identification Credentials"**, ob the Configure Crypto Identification Credentials page, click New.  
      Choose the just created key and certificate in step 1. Leave intermediate CA blank.  
      
+  3. Create a validation credential object, go to menu **Crypto Validation Credentials**.  
+     A validation credential object is used to validate the authenticity of certificates and digital signatures that is presented to a service.  
+     Add the certificate and leave the other options as default.  
+     
+     
+     
