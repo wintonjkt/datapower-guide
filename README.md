@@ -14,7 +14,10 @@
      
   4. Create a server crypto profile to use in an SSL communication. Go to menu **Crypto Profile**.
      A crypto profile is used to identify certificate-key pairs in an SSL connection. It can also validate presented certificates by using a validation credential object.  
-     Enter the CryptoID and CryptoValCred created in the earlier steps.  
+     Enter the CryptoID and CryptoValCred created in the earlier steps. Uncheck disable SSL version 3.  
+     
+  5. Apply the crypto profile to an HTTPS port  
+  6. Test the SSL from http://<image_ip>/dp/searchConfig.html  
      
      
      
