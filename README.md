@@ -46,8 +46,19 @@ configure terminal;web-mgmt;admin-state enabled;local-address 0 9090;exit
 ```
   9. Access the web management interface at https://[your-server-ip]:9090/dp
 
-
-
+## Create Loopback Service
+  
+  Steps:
+  1. Select Dynamic Backend option on mpg
+  2. Open Processing policy and create a request rule
+  3. Use the appropriate actions to process the request like transform for any xpath validations
+  4. Before result action,drag and drop the advanced action 
+  5. Open the advanced action and select the set variable option
+  6. For variable name click on var builder and service variable select the var://service/mpgw/skip-backside
+  7. Variable assignment can be given as 1
+  8. Apply policy
+  
+  Reference: http://datapowerfresher.blogspot.com/2015/05/creating-loopback-service-on-mpg.html
      
      
      
