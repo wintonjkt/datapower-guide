@@ -18,6 +18,28 @@
      
   5. Apply the crypto profile to an HTTPS port  
   6. Test the SSL from http://<image_ip>/dp/searchConfig.html  
+
+## Install Datapower on Linux
+  
+  1. Download the installer from Passport Advantage
+  2. Extract the downloaded file on the server 
+  3. Install Epel-release
+```
+yum install epel-release
+```
+  4. Install Datapower rpm 
+```
+yum install xxx.image.x86_64.rpm xxx.common.x86_64.rpm
+```
+  5. Start Datapower service
+```
+systemctl start datapower
+```
+  6. Configure the web management services
+```
+telnet 127.0.0.1 2200
+```
+
      
      
      
