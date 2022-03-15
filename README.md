@@ -39,6 +39,14 @@ systemctl start datapower
 ```
 telnet 127.0.0.1 2200
 ```
+  7. Login with default username/password: admin/admin, assign new password
+  8. Setup the web management interface with the following command
+```
+configure terminal;web-mgmt;admin-state enabled;local-address 0 9090;exit
+```
+  9. Access the web management interface at https://[your-server-ip]:9090/dp
+
+
 
      
      
