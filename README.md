@@ -29,7 +29,7 @@ yum install epel-release
 ```
   4. Install Datapower rpm 
 ```
-yum install xxx.image.x86_64.rpm xxx.common.x86_64.rpm
+yum install xxx.image.x86_64.rpm xxx.common.x86_64.rpm --nogpgcheck
 ```
   5. Start Datapower service
 ```
